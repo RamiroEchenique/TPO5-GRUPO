@@ -1,17 +1,17 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package com.mycompany.tp5_lab1;
 
 /**
  *
- * @author sapat
+ * @author ECHENIQUE RAMIRO
+ *          NADIA CODINA
+ *          MICAELA ZAMO
  */
 public class Producto {
     String nombre;
     double precio;
     String categoria;
+    
     public Producto(String nombre, double precio, String categoria) {
         this.nombre = nombre;
         this.precio = precio;

@@ -11,7 +11,9 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author sapat
+ * @author ECHENIQUE RAMIRO
+ *          NADIA CODINA
+ *          MICAELA ZAMO
  */
 public class AgregarProducto extends javax.swing.JInternalFrame {
 
@@ -129,8 +131,8 @@ public class AgregarProducto extends javax.swing.JInternalFrame {
         }
 
         String descripcion = jTNombre.getText();
-        //String categoria = Menu.g
-        //Producto guardar = new Producto(descripcion, precio, categoria);
+        String categoria = Menu.getCategoriaCombo();
+        Producto guardar = new Producto(descripcion, precio, categoria);
         ArrayList<Producto> lista=Menu.getProductos();
         lista.add(guardar);
 

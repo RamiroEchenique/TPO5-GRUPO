@@ -13,6 +13,7 @@ import java.util.ArrayList;
  */
 public class Menu extends javax.swing.JFrame {
 private static ArrayList<Producto> productos=new ArrayList<>();
+private static String categoriaCombo;
     /**
      * Creates new form Menu
      */
@@ -119,6 +120,11 @@ private static ArrayList<Producto> productos=new ArrayList<>();
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    public static String getCategoriaCombo() {
+        return categoriaCombo;
+    }
+    
+    
     private void jBAgregarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBAgregarActionPerformed
         // TODO add your handling code here:
         Escritorio.removeAll();
@@ -140,7 +146,7 @@ private static ArrayList<Producto> productos=new ArrayList<>();
     }//GEN-LAST:event_jbVerProductoActionPerformed
 
     private void jCCategoriaItemStateChanged(java.awt.event.ItemEvent evt) {//GEN-FIRST:event_jCCategoriaItemStateChanged
-      String categoria= (String)jCCategoria.getSelectedItem();
+      categoriaCombo= (String)jCCategoria.getSelectedItem();
       
     }//GEN-LAST:event_jCCategoriaItemStateChanged
  public static ArrayList<Producto> getProductos() {

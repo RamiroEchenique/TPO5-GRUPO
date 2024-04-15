@@ -25,10 +25,10 @@ public class TablaProductos extends javax.swing.JInternalFrame {
 
      private void inicializarTabla() {
         modeloTabla = new DefaultTableModel();
-      modeloTabla.addColumn("Categoria");
+        modeloTabla.addColumn("Categoria");
         modeloTabla.addColumn("Nombre");
         modeloTabla.addColumn("Precio");
-       jtTablaProductos.setModel(modeloTabla);
+        jtTablaProductos.setModel(modeloTabla);
      }  
        public void llenarTabla(){
        
