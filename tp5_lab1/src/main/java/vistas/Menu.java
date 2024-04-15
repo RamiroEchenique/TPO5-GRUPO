@@ -140,7 +140,8 @@ private static ArrayList<Producto> productos=new ArrayList<>();
     }//GEN-LAST:event_jbVerProductoActionPerformed
 
     private void jCCategoriaItemStateChanged(java.awt.event.ItemEvent evt) {//GEN-FIRST:event_jCCategoriaItemStateChanged
-   
+      String categoria= (String)jCCategoria.getSelectedItem();
+      
     }//GEN-LAST:event_jCCategoriaItemStateChanged
  public static ArrayList<Producto> getProductos() {
         return productos;
