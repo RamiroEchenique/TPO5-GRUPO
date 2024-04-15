@@ -10,7 +10,9 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author sapat
+ * @author ECHENIQUE RAMIRO
+ *          NADIA CODINA
+ *          MICAELA ZAMO
  */
 public class TablaProductos extends javax.swing.JInternalFrame {
  private DefaultTableModel modeloTabla;
