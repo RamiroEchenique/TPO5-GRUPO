@@ -36,6 +36,7 @@ public class TablaProductos extends javax.swing.JInternalFrame {
         
           for (Producto p : lista) {
               modeloTabla.addRow(new Object[]{
+                  p.getCategoria(),
                    p.getNombre(),
                     p.getPrecio()
                       
